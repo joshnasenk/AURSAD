@@ -1,0 +1,40 @@
+node_modules
+.env
+
+# Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+
+# Hardhat Ignition default folder for deployments against a local node
+ignition/deployments/chain-31337
+
+# Node stuff
+node_modules/
+
+# Python virtual environments
+myenv/
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# macOS system files
+.DS_Store
+
+# Large data files to ignore
+*.csv
+*.h5
+
+# Cache and build artifacts
+cache/
+artifacts/
+
