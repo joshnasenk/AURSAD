@@ -31,7 +31,6 @@ __pycache__/
 .DS_Store
 
 # Large data files to ignore
-*.csv
 *.h5
 
 # Cache and build artifacts
