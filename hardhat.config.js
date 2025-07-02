@@ -5,7 +5,7 @@ module.exports = {
   networks: {
     ganache: {
       url: "http://127.0.0.1:7545",
-      accounts: ["0xdf86027d778b7494d70e59b90a477c0fb77301c8138662878e213514e17315ba"]
+      accounts: ["0xYOUR_PRIVATE_KEY_HERE"], // Replace with your private key
     }
   }
 };

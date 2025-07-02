@@ -18,9 +18,9 @@ print(f"[Client {client_id}] Initializing...")
 w3 = Web3(Web3.HTTPProvider("http://127.0.0.1:7545"))
 assert w3.is_connected(), f"[Client {client_id}] Web3 not connected"
 
-private_key = "0xdf86027d778b7494d70e59b90a477c0fb77301c8138662878e213514e17315ba"
-account = "0xf87Fb787dfFcE116f9043F1343208Ca795427Fa2"
-contract_address = "0x2C36c3192Db37C22B43759CA5cC6E961Ba057e04"
+private_key = "0xYOUR_PRIVATE_KEY_HERE"  # Replace with your private key
+account = "0xYOUR_ACCOUNT_ADDRESS_HERE"  # Replace with your account address
+contract_address = "0xYOUR_CONTRACT_ADDRESS_HERE"  # Replace with your contract address
 
 with open("artifacts/contracts/DataVerification.sol/DataVerification.json") as f:
     abi = json.load(f)["abi"]
